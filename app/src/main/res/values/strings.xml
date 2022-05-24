@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">IMDb</string>
+
+    <string name="main_image">IMDb</string>
+    <string name="user_login">Usuario</string>
+    <string name="psw_login">Contraseña</string>
+    <string name="creat_password">¿Olvidaste la contraseña?</string>
+    <string name="login">Login</string>
+    <string name="podes_ingresar_con">Ó podes ingresar con</string>
+    <string name="no_tenes_cuenta">¿No tenes cuenta?</string>
+    <string name="reg_strate">Regístrate</string>
+    <string name="continuar_como_invitado">Continuar como invitado</string>
+    <string name="registerlogo">registerLogo</string>
+    <string name="arrow_back">arrow_back</string>
+    <string name="nombre">Nombre</string>
+    <string name="email">Correo electronónico</string>
+    <string name="crear_una_cuenta">Crear una cuenta</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_search">Buscar</string>
+    <string name="title_play">Play</string>
+    <string name="title_account">Invitado</string>
+    <string name="search_input_movies">search_input_movies</string>
+    <string name="buscar_imdb">Buscar IMDB</string>
+
+</resources>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/yellow">
+
+    <ImageView
+        android:id="@+id/imdb_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/main_image"
+        android:src="@drawable/imdb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/usertxt_login"
+        style="@style/Widget.imdb.TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/user_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imdb_image" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/user_login"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usertxt_login">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/user_login_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/styles_login_inputs"
+            android:backgroundTint="@color/white"
+            android:inputType="text"
+            android:textColor="@color/black" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/pswtxt_login"
+        style="@style/Widget.imdb.TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/psw_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_login" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/psw_login"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pswtxt_login">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/psw_login_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/styles_login_inputs"
+            android:backgroundTint="@color/white"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/create_password"
+        style="@style/Widget.imdb.TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:text="@string/creat_password"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/psw_login" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="@drawable/styles_login_inputs"
+        android:text="@string/login"
+        android:enabled="false"
+        android:theme="@style/ButtonLoginRegister"
+        app:layout_constraintBottom_toTopOf="@+id/register_by"
+        app:layout_constraintTop_toBottomOf="@+id/create_password" />
+
+    <TextView
+        android:id="@+id/register_by"
+        style="@style/Widget.imdb.TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:text="@string/podes_ingresar_con"
+        app:layout_constraintBottom_toTopOf="@+id/register_icons"
+        app:layout_constraintTop_toBottomOf="@+id/login_button" />
+
+    <LinearLayout
+        android:id="@+id/register_icons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/register_txt"
+        app:layout_constraintTop_toBottomOf="@+id/register_by" >
+
+        <ImageView
+            android:id="@+id/apple_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="10dp"
+            android:clickable="true"
+            android:background="@drawable/styles_login_icons"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/facebook_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="10dp"
+            android:padding="10dp"
+            android:clickable="true"
+            android:background="@drawable/styles_login_icons"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/google_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/styles_login_icons"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/register_question"
+        style="@style/Widget.imdb.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/no_tenes_cuenta"
+        app:layout_constraintBottom_toTopOf="@+id/guest_txt"
+        app:layout_constraintEnd_toStartOf="@+id/register_txt"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_icons" />
+
+    <TextView
+        android:id="@+id/register_txt"
+        style="@style/Widget.imdb.TextView"
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/reg_strate"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toTopOf="@+id/guest_txt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/register_question"
+        app:layout_constraintTop_toBottomOf="@+id/register_icons" />
+
+    <TextView
+        android:id="@+id/guest_txt"
+        style="@style/Widget.imdb.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/continuar_como_invitado"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_question" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

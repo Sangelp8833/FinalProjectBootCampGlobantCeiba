@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2805" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2805" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2805" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2805" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.2805" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3355" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2805" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/drawable/splashscreen.xml" value="0.2" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/drawable/style_edittext.xml" value="0.2855" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/drawable/styles_login.xml" value="0.133" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/drawable/styles_login_icons.xml" value="0.239" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/drawable/styles_login_inputs.xml" value="0.25" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/drawable/styles_navbar.xml" value="0.2805" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/drawable/styles_register_logo.xml" value="0.3355" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/drawable/styles_selector.xml" value="0.2805" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/font/oswald_bold.xml" value="0.3927083333333333" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/layout/activity_navigation.xml" value="0.25" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/layout/fragment_account.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/layout/fragment_dashboard.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/layout/fragment_home.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/layout/fragment_notifications.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/layout/fragment_play.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/layout/fragment_search.xml" value="0.33" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/layout/register.xml" value="0.4902439024390244" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/Bootcamp/ProyectoFinal/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/huawei/Desktop/Programar/FinalProjectBootcamp/app/src/main/res/layout/fragment_search.xml" value="0.23958333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
